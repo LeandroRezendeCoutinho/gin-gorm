@@ -8,8 +8,7 @@ import (
 )
 
 func main() {
-	gin.DisableConsoleColor()
-	router := gin.New()
+	router := gin.Default()
 
 	config.Connect()
 
